@@ -1,0 +1,52 @@
+.education-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.education-item {
+  padding: 28px;
+  display: flex;
+  gap: 18px;
+}
+
+.education-marker {
+  width: 10px;
+  height: 10px;
+  margin-top: 6px;
+  border-radius: 2px;
+  background: var(--color-primary);
+  flex-shrink: 0;
+}
+
+.education-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.education-degree {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.education-school {
+  color: var(--color-primary);
+  font-weight: 500;
+  font-size: 14.5px;
+  margin-bottom: 14px;
+}
+
+.education-details {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.education-details li {
+  color: var(--color-ink-soft);
+  font-size: 14.5px;
+}

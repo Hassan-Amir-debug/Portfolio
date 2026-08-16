@@ -1,0 +1,62 @@
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.experience-item {
+  padding: 28px;
+}
+
+.experience-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.experience-org {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+.experience-period {
+  flex-shrink: 0;
+}
+
+.experience-points {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.experience-points li {
+  position: relative;
+  padding-left: 18px;
+  color: var(--color-ink-soft);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.experience-points li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--color-accent);
+}
+
+.experience-note {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  color: var(--color-muted);
+  border-top: 1px dashed var(--color-border);
+  padding-top: 12px;
+}
